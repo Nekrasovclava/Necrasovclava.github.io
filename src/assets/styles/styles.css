@@ -1,0 +1,221 @@
+*{box-sizing: border-box;}
+h1{box-sizing: border-box;
+    border: 3px rgb(85, 99, 230) solid;
+    padding: 12px;
+    padding-left: 30px;
+    color: rgb(82, 80, 196);
+    background: linear-gradient(#fff, #555454);
+    margin: 0 auto;
+    /* сделать, чтобы было только по центру */
+}
+
+h2{color: rgb(47, 47, 126);}
+h3{color: rgb(14, 2, 2);}
+button{width: 200px}
+.red-text {color: rgb(209, 70, 15);}
+#Prog{color: blue;}
+button:hover{ background: linear-gradient(#949292, #313dee);}
+button:active{ background: linear-gradient(#949292, #070e75);}
+
+
+h1 {font-size: 50px;
+font-weight: 600;
+font-style:normal;
+background-color: rgb(193, 193, 196);
+height: 90px;
+border-radius: 50px;
+
+}
+
+.glass{
+    background: rgba(52, 53, 212, 0.17);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.9px);
+    -webkit-backdrop-filter: blur(1.9px);
+    border: 1px solid rgba(52, 53, 212, 1);
+    
+    }
+
+button{
+    background-color: rgb(211, 208, 208);
+    padding: 8px 20px 8px 20px;
+    margin: 8px 20px 8px 20px;
+    border: 2px rgb(4, 53, 4) solid;
+    border-radius: 12px;
+
+}
+
+.header-info__botton{
+    border-radius: 15px;
+    background-color: rgb(145, 143, 143);
+    font-size: 15px;
+    padding: 6px 2px 6px 2px;
+    width: 100px;
+}
+
+header{
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header-bottom__button{
+position: absolute;
+bottom: 20px;
+left: 48%;
+transform: translateX(-50%);
+}
+
+
+
+h4{
+    padding: 20px 20px;
+    font-size: 35px;
+}
+
+body{
+    font-family: "Roboto", sans-serif;  font-weight: 100;  font-style: normal;
+    background: linear-gradient(#949292, #555454);
+}
+
+.navigation__list{
+    margin: 10px;
+    padding: 20px 20px 20px 20px;
+    width: 500px;
+    font-weight: 400;
+    position: absolute;
+    top: 20px;
+    left: 36%;
+}
+
+a{color: rgb(7, 6, 6);
+text-decoration: none;
+padding: 20px 20px 20px 20px;
+}
+
+h3+h4 {
+    color: rgb(235, 235, 76);
+}
+
+.header-info__description{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.header-info{ 
+    text-align: center
+}
+
+.header-info__title{
+    display: flex;
+text-align: center;
+justify-content: center;
+}
+
+.aboutme{
+    height: 100vh;
+}
+
+
+.aboutme__title{
+    margin: 0px;
+    padding: 20px 20px;
+    display: flex;
+    justify-content:center ;
+    font-size: 50px;
+    
+}
+
+.aboutme__content{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.aboutme__image{
+border-radius: 30px;
+max-width: 550px
+}
+.aboutme__list{
+    padding: 20px 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.programms{
+    margin: 10px;
+ } 
+
+ .prog__title{
+    margin: 10px;
+    padding: 20px 20px;
+    text-align: center;
+    font-size: 45px;
+    ;
+}
+
+.prog1{ 
+    padding: 20px 20px;
+    font-weight: 500;
+ }
+ 
+ .prog2{
+     padding: 20px 20px;
+     font-weight: 500;
+ }
+ 
+ .prog3{
+     
+     padding: 20px 20px;
+     font-weight: 500;
+ }
+ 
+ .button__prog{
+    background: linear-gradient(#fff, #555454);
+ }
+ 
+.imageprog{
+    border-radius: 30px;
+    max-width: 550px
+}
+
+.contacts{
+    height: 100vh;
+    font-weight: 500;
+    padding: 20px 20px;
+}
+
+.contacts__list{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 16px;
+}
+
+.contacts__title{
+    margin: 20px 20px 70px 20px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    }
+
+.contacts__li{
+    background: linear-gradient(#fff, #555454);
+    border-radius: 30px;
+    color: rgb(68, 56, 241);
+    border:2px rgb(27, 111, 189) solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 400px;
+    font-size: 22px;
+    /* как сделать, чтобы оба блока были в центре */
+ }
+ 
+ .contacts__li-image{
+     max-width: 80px;
+     border-radius: 50px;
+ }
