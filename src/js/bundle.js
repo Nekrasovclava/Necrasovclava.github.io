@@ -1,0 +1,1 @@
+window.onload=()=>{document.querySelector("header");document.addEventListener("scroll",e=>{console.log(e.target.scrollTop)});var e,t=document.querySelectorAll(".navigation__list-item");for(e of t)e.addEventListener("click",e=>{e.preventDefault();e=e.target;document.querySelector(e.getAttribute("href")).scrollIntoView({behavior:"smooth",block:"start"})})};
