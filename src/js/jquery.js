@@ -1,0 +1,1 @@
+$(".navigation__title").on("click",function(){$(".navigation__list ").is(":hidden")?$(".navigation__list ").slideDown("slow"):$(".navigation__list ").slideUp()});
