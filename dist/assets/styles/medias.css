@@ -1,0 +1,16 @@
+@media only screen and (max-width:836px) {
+    .header-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .aboutme__content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        /* почему то текст наезжает на следующий заголовок */
+    }
+    
+}
