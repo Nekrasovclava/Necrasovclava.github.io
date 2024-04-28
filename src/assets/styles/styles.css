@@ -1,6 +1,5 @@
 *{box-sizing: border-box;}
-h1{box-sizing: border-box;
-    border: 3px rgb(85, 99, 230) solid;
+h1{    border: 3px rgb(85, 99, 230) solid;
     padding: 12px;
     padding-left: 30px;
     color: rgb(82, 80, 196);
@@ -148,7 +147,7 @@ max-width: 550px
     margin: 10px;
  } 
 
- .prog__title{
+ .programms__title{
     margin: 10px;
     padding: 20px 20px;
     text-align: center;
@@ -156,17 +155,17 @@ max-width: 550px
     ;
 }
 
-.prog1{ 
+.programms__1{ 
     padding: 20px 20px;
     font-weight: 500;
  }
  
- .prog2{
+ .programms__2{
      padding: 20px 20px;
      font-weight: 500;
  }
  
- .prog3{
+ .programms__3{
      
      padding: 20px 20px;
      font-weight: 500;
@@ -212,10 +211,11 @@ max-width: 550px
     gap: 16px;
     width: 400px;
     font-size: 22px;
-    /* как сделать, чтобы оба блока были в центре */
+    margin: 0 auto;
  }
  
  .contacts__li-image{
      max-width: 80px;
      border-radius: 50px;
  }
+
